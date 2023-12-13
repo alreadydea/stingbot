@@ -3,7 +3,7 @@ import traceback
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 
-from DAXXSTRINGBOT.generate import generate_session, ask_ques, buttons_ques
+from 𝙩𝙚𝙖𝙢 𝙨𝙥𝙮.generate import generate_session, ask_ques, buttons_ques
 
 
 @Client.on_callback_query(filters.regex(pattern=r"^(generate|pyrogram|pyrogram1|pyrogram_bot|telethon_bot|telethon)$"))
