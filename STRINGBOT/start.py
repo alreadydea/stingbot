@@ -19,15 +19,15 @@ async def start(bot: Client, msg: Message):
 𝐅𝐔𝐋𝐋𝐘 𝐒𝐀𝐅𝐄 & 𝐒𝐄𝐂𝐔𝐑𝐄.
 𝐍𝐎  𝐄𝐑𝐑𝐎𝐑.
 
-𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝐓𝐄𝐀𝐌 𝐃𝐀𝐗𝐗](tg://user?id={OWNER_ID}) !""",
+𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝙩𝙚𝙖𝙢 𝙨𝙥𝙮](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🌿𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆🌿", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton(" 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/AllPremiumCc"),
-                    InlineKeyboardButton("𝐎𝐟𝐟𝐢𝐜𝐞", url="https://t.me/CYBERDAXXX")
+                    InlineKeyboardButton(" 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://devgagan.in/"),
+                    InlineKeyboardButton("𝐎𝐟𝐟𝐢𝐜𝐞", url="https://t.me/stringsessionAK47")
                 ]
             ]
         ),
