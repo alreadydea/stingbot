@@ -2,7 +2,7 @@ from pyrogram.types import Message
 from pyrogram import Client, filters
 
 from config import OWNER_ID
-from DAXXSTRINGBOT.db.users import add_served_user, get_served_users
+from STRINGBOT.db.users import add_served_user, get_served_users
 
 
 @Client.on_message(filters.private & ~filters.service, group=1)
