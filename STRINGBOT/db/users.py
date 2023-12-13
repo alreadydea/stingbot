@@ -1,4 +1,4 @@
-from DAXXSTRINGBOT.db import db
+from STRINGBOT.db import db
 
 usersdb = db.users
 
